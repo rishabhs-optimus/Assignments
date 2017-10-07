@@ -74,20 +74,15 @@
     margin: 0 auto;
 }
 
-.section-about {
-    padding-top: 40px;
-    position: relative;
-}
-
 .c-navigation-wrap .btn-sidebar-open .rsicon {
     color: #3d4451;
     font-size: 25px;
 }
+
 .rsicon, blockquote:before, .ref-box .person-speech:before, .widget_search .search-form:before {
     display: inline-block;
     vertical-align: middle;
 }
-
 
 .c-navigation-wrap .btn-sidebar-open {
     right: 0;
@@ -108,11 +103,7 @@
     text-align: center;
     background: transparent;
     border: 1px solid #d1d1d1;
-    -webkit-border-radius: 1px;
-    -moz-border-radius: 1px;
     border-radius: 1px;
-    -webkit-transition: all 50ms liner;
-    -moz-transition: all 50ms liner;
     transition: all 50ms liner;
 }
 
@@ -209,6 +200,7 @@
     height: 270px;
     display: block;
 }
+
 .c-header-background {
     top: 0;
     left: 0;
@@ -240,26 +232,25 @@
 }
 
 
-.profile-social {
+.c-profile-social {
     padding: 15px 0;
     background-color: #07cb79;
 }
 
-
-.social {
+.c-social {
     margin: 0;
     padding: 0;
     list-style: none;
     text-align: center;
 }
 
-.social li {
+.c-social li {
     display: inline-block;
     margin: 0 15px;
     margin-bottom: -25px;
 }
 
-.social li a {
+.c-social li a {
     width: 45px;
     height: 45px;
     position: relative;
@@ -276,10 +267,9 @@
     border-radius: 50%;
 }
 
-.social li a .rsicon {
+.c-social li a .rsicon {
     color: #fff;
     font-size: 20px;
-    /* line-height: 45px; */
     display: block;
 }
 
@@ -646,7 +636,7 @@ a {
     position: relative;
 }
 
-.section-about .profile-photo {
+.section-about .c-profile-photo {
     margin-right: 10%;
     margin-bottom: 10px;
 }
@@ -664,7 +654,7 @@ a {
     list-style: none;
 }
 
-.profile-preword {
+.c-profile-preword {
     margin-bottom: 28px;
 }
 
@@ -706,7 +696,7 @@ a {
     margin-bottom: 13px;
 }
 
-.profile-photo img {
+.c-profile-photo img {
     width: 100%;
     display: block;
 }
