@@ -641,6 +641,27 @@ a {
     line-height: 1;
 }
 
+.w3-bar-item.w3-button.w3-large {
+    background: white;
+    color: red;
+    position: relative;
+    z-index: 100000;
+    right: 0px;
+    width: 100%;
+    height: 50px;
+    font-size: 24px;
+    color: green;
+}
+
+.w3-bar-item.w3-button {
+
+text-decoration: none;
+    display: block;
+    position: relative;
+    color: red;
+    z-index: 50000000000000;
+}
+
 .c-section-about .c-profile-photo {
     margin-right: 10%;
     margin-bottom: 10px;
